@@ -18,3 +18,11 @@ def test_pagina_clientes():
     cliente = sistema.app.test_client()
     resposta = cliente.get("/clientes")
     assert resposta.status_code == 200
+
+
+def test_pagina_pedidos():
+    sistema.app.config["TESTING"] = True
+    cliente = sistema.app.test_client()
+    resposta = cliente.get("/pedidos")
+    assert resposta.status_code == 200
+    assert b"Historico de pedidos" in resposta.data or b"Hist" in resposta.data
