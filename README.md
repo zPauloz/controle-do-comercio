@@ -41,3 +41,10 @@ Para executar os testes, ative o ambiente virtual e rode:
     python -m pytest -v
 
 Os testes verificam se as páginas inicial, de produtos e de clientes respondem corretamente.
+## Revisão técnica
+
+O MVP foi revisado considerando a organização do código, a legibilidade,
+a validação dos dados e o funcionamento das principais páginas.
+
+Os testes automatizados ajudam a verificar se as funcionalidades
+continuam funcionando após alterações no sistema.
