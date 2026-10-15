@@ -33,3 +33,11 @@ MVP desenvolvido em Python 3 e Flask para auxiliar pequenos comércios no contro
 - O estoque inicial não pode ser negativo.
 - A quantidade do pedido deve ser positiva.
 - Pedidos acima do estoque disponível são recusados.
+
+## Testes automatizados
+
+Para executar os testes, ative o ambiente virtual e rode:
+
+    python -m pytest -v
+
+Os testes verificam se as páginas inicial, de produtos e de clientes respondem corretamente.
