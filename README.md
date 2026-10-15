@@ -27,3 +27,9 @@ MVP desenvolvido em Python 3 e Flask para auxiliar pequenos comércios no contro
 4. Inicie a aplicação:
    python app.py
 5. Acesse http://127.0.0.1:5000
+
+## Validações do sistema
+- O preço do produto deve ser maior que zero.
+- O estoque inicial não pode ser negativo.
+- A quantidade do pedido deve ser positiva.
+- Pedidos acima do estoque disponível são recusados.
