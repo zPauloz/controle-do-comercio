@@ -43,6 +43,8 @@ def iniciar_banco():
             FOREIGN KEY(produto_id) REFERENCES produtos(id)
         );
         """)
+        
+iniciar_banco()
 
 HTML = """
 <!doctype html>
